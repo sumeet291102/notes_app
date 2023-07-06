@@ -11,7 +11,7 @@ function App() {
   
 
   useEffect(() => {
-    fetch('http://127.0.0.1:8000/')
+    fetch('https://sumeet291102.github.io/notes_app/?title=c&content=h/')
        .then((res) => res.json())
        .then((data) => {
           console.log(data.data.notes);
