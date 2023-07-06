@@ -15,6 +15,6 @@ const connectDB = async () => {
 
 connectDB();
 
-app.listen(8000,() => {
+app.listen(8000, "0.0.0.0" ,() => {
     console.log("listening on port 8000");
 })
