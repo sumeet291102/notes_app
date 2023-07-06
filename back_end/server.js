@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 
 const connectDB = async () => {
   try {
-    const conn = await mongoose.connect(`mongodb://127.0.0.1:27017/notes_db`, {
+    const conn = await mongoose.connect("mongodb+srv://sumeet291102:sumsam291102@cluster0.upqzwrq.mongodb.net/notes?retryWrites=true&w=majority", {
       useNewUrlParser: true,
     });
     console.log(`MongoDB Connected: ${conn.connection.host}`);
