@@ -23,7 +23,7 @@ function CreateArea(props) {
   }
 
   const add_note = async () => {
-    await fetch("http://127.0.0.1:8000/", {
+    await fetch("https://notes-app-5qg6.onrender.com/", {
       method: "POST",
       body: JSON.stringify({
         title: note.title,

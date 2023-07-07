@@ -4,7 +4,7 @@ import DeleteIcon from "@material-ui/icons/Delete";
 function Note(props) {
 
   const note_del = async () => {
-    await fetch("http://127.0.0.1:8000/", {
+    await fetch("https://notes-app-5qg6.onrender.com/", {
       method: "DELETE",
       body: JSON.stringify({
         id: props.id,
