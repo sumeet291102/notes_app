@@ -11,7 +11,7 @@ function App() {
   
 
   useEffect(() => {
-    fetch('https://sumeet291102.github.io/notes_app/')
+    fetch('https://notes-app-5qg6.onrender.com/')
        .then((res) => res.json())
        .then((data) => {
           console.log(data.data.notes);
