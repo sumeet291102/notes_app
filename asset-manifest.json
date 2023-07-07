@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/notes_app/static/js/main.f8810cfd.js",
+    "main.js": "/notes_app/static/js/main.da917f16.js",
     "index.html": "/notes_app/index.html",
-    "main.f8810cfd.js.map": "/notes_app/static/js/main.f8810cfd.js.map"
+    "main.da917f16.js.map": "/notes_app/static/js/main.da917f16.js.map"
   },
   "entrypoints": [
-    "static/js/main.f8810cfd.js"
+    "static/js/main.da917f16.js"
   ]
 }
